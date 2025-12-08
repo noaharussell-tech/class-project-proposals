@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GameGuesser — Proposal</title>
+  <title>GameGuesser - Proposal</title>
   <style>
     body {font-family: Arial, sans-serif; background: #f4f4f4; color: #222; margin: 0; padding: 0;}
     .container {max-width: 800px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
@@ -14,10 +14,10 @@
 </head>
 <body>
   <div class="container">
-    <h1>GameGuesser — Product Proposal</h1>
+    <h1>GameGuesser - Product Proposal</h1>
 
     <h2>Product Name</h2>
-    <p><strong>GameGuesser</strong> — Game Popularity Quiz</p>
+    <p><strong>GameGuesser</strong> - Top-Selling Games Quiz</p>
 
     <h2>Team Members</h2>
     <ul>
@@ -25,48 +25,80 @@
     </ul>
 
     <h2>Application Overview</h2>
-    <p>GameGuesser is a procedurally generated quiz where the user has to decide which game has more all time download between two of the top 20 games in the world. </p>
+    <p>
+      GameGuesser is a desktop-based quiz game built with Python and Tkinter. 
+      The game challenges the user to guess which of two top selling video games 
+      has sold more copies worldwide. Each round randomly selects two games from 
+      the top 10 best selling games of all time, and the player chooses which 
+      one they believe sold more. Hints and fun facts are included for extra 
+      engagement, and a final score is displayed at the end.
+    </p>
 
     <h2>Technology Overview</h2>
     <ul>
-      <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Backend:</strong> Visual Studio Code</li>
-      <li><strong>Hosting:</strong> GitHub Pages</li>
+      <li><strong>Programming Language:</strong> Python</li>
+      <li><strong>GUI Framework:</strong> Tkinter</li>
+      <li><strong>Development Environment:</strong> Visual Studio Code</li>
+      <li><strong>No Web Hosting:</strong> Runs as a standalone application</li>
     </ul>
 
     <h2>Proposal Last Updated</h2>
-    <p>November 18, 2025</p>
+    <p>December 8, 2025</p>
 
     <h2>Feature List (Prioritized)</h2>
     <ol>
-      <li>Working and accurate quiz</li>
-      <li>Working procedural generation</li>
-      <li>Overall score at the end</li>
-      <li>Ability to compare the downlaod counts of different games</li>
+      <li>Fully functional Tkinter windows application</li>
+      <li>Randomized pair generation each round</li>
+      <li>Accurate comparison using real-world sales numbers</li>
+      <li>Hints for each game to assist the player</li>
+      <li>Fun facts displayed after every guess</li>
+      <li>Total score summary at the end of the game</li>
+      <li>Replay system that resets the entire game</li>
     </ol>
 
-    <h2>Future Feature List</h2>
+    <h2>Top Game Dataset Used</h2>
+    <p>The quiz includes the following top-selling games (units sold in millions):</p>
     <ul>
-      <li>Self updating quiz to keep up with new games</li>
-      <li>Yearly list of top ten popular games quiz option</li>
-      <li>Abiltiy to generate user specified quizzes</li>
+      <li>Tetris - 520M</li>
+      <li>Minecraft - 300M</li>
+      <li>Grand Theft Auto V - 220M</li>
+      <li>Wii Sports - 82.9M</li>
+      <li>PUBG - 75M</li>
+      <li>Mario Kart 8 / Deluxe - 70M</li>
+      <li>Red Dead Redemption 2 - 67M</li>
+      <li>Skyrim - 60M</li>
+      <li>Super Mario Bros. - 58M</li>
+      <li>The Witcher 3 - 50M</li>
     </ul>
 
     <h2>Basic Technical Features</h2>
     <ul>
-      <li>HTML base codes</li>
-      <li>CSS design features</li>
-      <li>Python compatible code</li>
+      <li>Python event-driven GUI using Tkinter</li>
+      <li>Button interactions for user choices</li>
+      <li>Dynamic text updates (feedback, hints, facts)</li>
+      <li>Score tracking and display</li>
     </ul>
 
     <h2>Advanced Technical Features</h2>
     <ul>
-      <li>Self updateable lists</li>
-      <li>Interaction with other websites</li>
+      <li>Random procedural generation of quiz rounds</li>
+      <li>Game data stored as a structured Python dictionary</li>
+      <li>Dynamic color changes based on correct/incorrect answers</li>
+      <li>End-of-game screen replacement via widget destruction</li>
+    </ul>
+
+    <h2>Future Feature List</h2>
+    <ul>
+      <li>Ability to import updated game sales data automatically</li>
+      <li>Multiple quiz modes (e.g., yearly charts, genre-based quizzes)</li>
+      <li>User-selectable custom quiz lists</li>
+      <li>Audio feedback and animations</li>
+      <li>Leaderboard or high-score system</li>
+      <li>Packaging into a downloadable .exe installer</li>
     </ul>
 
     <footer>
-      <p><strong>Hosting Instructions:</strong> Upload <code>index.html</code> to GitHub Pages for instant hosting.</p>
+      <p><strong>Running Instructions:</strong> Run <code>gameguesser.py</code> in Python 3.10+ to launch the application.</p>
     </footer>
   </div>
 </body>
